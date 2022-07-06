@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup form</title>
-</head>
-<body align="center">
+  </head>
+  <body align="center">
     <h3>Signup</h3>
 
-    <div>
+    <form action="" method="POST">
+      <div>
         <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-    <hr>
-    </div>
-    <div>
+        <input type="text" name="email" id="email" />
+        <hr />
+      </div>
+      <div>
         <label for="username">Username</label>
-        <input type="text" id="username" name="username">
-    </div>
+        <input type="text" id="username" name="username" />
+      </div>
+      <hr>
 
-    <div>Could you please add Profile Picture here?</div>
-    
-    <hr>
-    <div>
+      <div>
+        <label for="pic">Profile picture</label>
+        <input type="file" name="pic" id="pic">
+      </div>
+
+      <hr />
+      <div>
+        <input type="text" id="username" name="username" />
+      </div>
+      <hr />
+      <div>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-    </div>
-    <hr>
-    <div>
+        <input type="password" name="password" id="password" />
+      </div>
+      <hr />
+      <div>
         <label for="password-confirm">Confirm Password</label>
-        <input type="password" name="password-confirm" id="password-confirm">
-    </div>
-    <hr>
-    <input type="submit" value="Signup">
-</body>
+        <input type="password" name="password-confirm" id="password-confirm" />
+      </div>
+      <hr />
+      <input type="submit" value="Signup" />
+    </form>
+  </body>
 </html>
